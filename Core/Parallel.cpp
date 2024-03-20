@@ -1,3 +1,5 @@
+#include <chrono>
+#include <thread>
 #include "Core.h"
 
 #if THREADING
@@ -233,6 +235,11 @@ void CThread::Start()
 {
 	return (int)pthread_self() >> 6;
 }
+
+void SDL_Delay(int milliseconds) {
+    std::this_thread::sleep_for(std::chrono::milliseconds(milliseconds));
+};
+// void SDL_Delay(int milliseconds);
 
 /*static*/ void CThread::Sleep(int milliseconds)
 {
