@@ -31,7 +31,7 @@
 // requires UNREAL1
 #if UNREAL1
 #define DEUS_EX			1
-#define RUNE			1
+#define RUNE			0
 #define UNDYING			1
 #endif
 
@@ -53,15 +53,15 @@
 
 // platforms
 #define SUPPORT_XBOX360	0		// XBox360 support
-#define SUPPORT_IPHONE	1		// iPhone/iPad support
-#define SUPPORT_ANDROID	1		// Android support
-#define SUPPORT_PS4		1		// Playstation 4 support
-#define SUPPORT_SWITCH	1		// Nintendo Switch support
+#define SUPPORT_IPHONE	0		// iPhone/iPad support
+#define SUPPORT_ANDROID	0		// Android support
+#define SUPPORT_PS4		0		// Playstation 4 support
+#define SUPPORT_SWITCH	0		// Nintendo Switch support
 
 #if UNREAL3
 
 #define ENDWAR			1		// EndWar
-#define BIOSHOCK		1		//!! requires UNREAL3 and TRIBES3
+#define BIOSHOCK		0		//!! requires UNREAL3 and TRIBES3
 #define DOH				1		// Destroy All Humans
 #define ARMYOF2			1		// Army of Two
 #define MASSEFF			1		// Mass Effect
@@ -72,7 +72,7 @@
 #define XMEN			1		// XMen: Wolverine
 #define FURY			1
 #define MCARTA			1		// Magna Carta 2
-#define BATMAN			1		// Batman: Arkham Asylum
+#define BATMAN			0		// Batman: Arkham Asylum
 #define CRIMECRAFT		1		// Crime Craft
 #define AVA				1		// AVA Online
 #define FRONTLINES		1		// Frontlines: Fuel of War and Homefront
