@@ -1,7 +1,11 @@
 #ifndef __MATH_SSE_H__
 #define __MATH_SSE_H__
 
+#if defined(__aarch64__)
+#include "../libs/sse2neon/sse2neon.h"
+#else
 #include <xmmintrin.h>
+#endif
 
 struct CVec4
 {
